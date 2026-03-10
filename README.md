@@ -1,5 +1,4 @@
-# CXI-Template
-Template fast-analysis code for CXI Experiments in standard configuration #2.
+# CXI-1015838-Cheng Fast analysis code
 ## Setup
 Use this template to make a new repository, and don't forget to edit `config.yaml` file to match the experiment.
 
