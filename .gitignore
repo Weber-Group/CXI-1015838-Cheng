@@ -1,5 +1,6 @@
 # Big files which we don't want to include
 *.h5 
+cxi101583826/
 
 # Standard Python .gitignore
 # Byte-compiled / optimized / DLL files
