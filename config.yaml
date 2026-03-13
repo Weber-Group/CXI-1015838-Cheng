@@ -3,7 +3,8 @@
 
 # Change EXPERIMENT when initializing a new repo for an experiment. Three places to change this.
 expNumber: cxi101583826 # Enter the full run number here, e.g. cxil1037623.
-expDir: /sdf/data/lcls/ds/cxi/cxi101583826/ # Full path to the experimental directory here e.g/ /sdf/data/lcls/ds/cxi/cxil1037623/.
+# expDir: /sdf/data/lcls/ds/cxi/cxi101583826/ # Full path to the experimental directory here e.g/ /sdf/data/lcls/ds/cxi/cxil1037623/.
+expDir: /sdf/data/lcls/ds/cxi/cxi101583826/
 
 # This is not used anywhere. But is useful for debugging and version control.
 template_version: 1.0
@@ -21,6 +22,10 @@ data_paths:
 photon_energy:
 - runs: [0, .inf]
   energy: 15   # in keV
+# Pump pulse energy, in uJ
+pump_energy:
+- runs: [0, .inf]
+  energy: 0
 # Sample types
 samples:
 - runs: [0, .inf]
