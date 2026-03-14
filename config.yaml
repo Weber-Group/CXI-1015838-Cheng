@@ -7,7 +7,7 @@ expNumber: cxi101583826 # Enter the full run number here, e.g. cxil1037623.
 expDir: /sdf/data/lcls/ds/cxi/cxi101583826/
 
 # This is not used anywhere. But is useful for debugging and version control.
-template_version: 1.0
+template_version: v1.0.0
 xrst_version: v1.0.0-beta.0 - v1.0.0-beta.2
 
 ## Run specific information
@@ -28,7 +28,13 @@ pump_energy:
   energy: 0
 # Sample types
 samples:
-- runs: [0, .inf]
-  sample: '[Sample]'
+- runs: [1, 1]
+  sample: 'Pedestal'
+- runs: [2,2]
+  sample: 'test'
+- runs: [3,3]
+  sample: 'Pedestal'
+- runs: [4,4]
+  sample: 'Dark'
 # Timetool calibration data
 tt_calibration:
