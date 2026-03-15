@@ -36,5 +36,13 @@ samples:
   sample: 'Pedestal'
 - runs: [4,4]
   sample: 'Dark'
+- runs: [5,5]
+  sample: 'Pedestal'
+- runs: [6,6]
+  sample: 'Dark'
+- runs: [7,7]
+  sample: 'Pedestal'
+- runs: [8,8]
+  sample: 'Dark'
 # Timetool calibration data
 tt_calibration:
