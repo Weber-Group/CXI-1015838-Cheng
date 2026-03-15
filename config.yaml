@@ -44,5 +44,7 @@ samples:
   sample: 'Pedestal'
 - runs: [8,8]
   sample: 'Dark'
+- runs: [9,9]
+  sample: 'Pt Rings'
 # Timetool calibration data
 tt_calibration:
